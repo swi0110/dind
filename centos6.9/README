@@ -2,11 +2,10 @@ Base OS is centos6.9.
 because, centos7 is can't command 'systmectl'.
 so, I make to base centos 6.9.
 
-You can running this image...
+How to running this image.
 'docker run --privileged -dit -v /var/run/docker.sock:/var/run/docker.sock [6.9_dind]:latest wrapdocker'
 
-If you want base OS centos7..
-just simple
+If you want base OS centos7, just simple!
 
 1. modify 'centos:6.9' -> 'centos:7'
 2. hide 'RUN rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm'
